@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 # Set the encoding to UTF-8
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-# Load quotes from CSV file
-df_quotes = pd.read_csv(r"C:\Users\91902\Desktop\pse_isr_reddit_comments.csv")  # Replace with your CSV file path
+
 
 # Check if 'FBPost' column exists
 if 'self_text' not in df_quotes.columns:
